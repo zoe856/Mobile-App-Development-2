@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:padding="20dp" android:background="@color/screen_bg">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CampusConnect"
+        android:textSize="28sp" android:textStyle="bold" android:textColor="@color/text_main"/>
+    <TextView android:id="@+id/tvWelcome" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Welcome to your dashboard" android:textSize="16sp" android:textColor="@color/text_muted"
+        android:layout_marginTop="8dp" android:layout_marginBottom="20dp"/>
+    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="2"
+        android:rowCount="3" android:useDefaultMargins="true">
+        <TextView android:layout_width="0dp" android:layout_height="110dp" android:layout_columnWeight="1" android:gravity="center"
+            android:text="📚\nCourses" android:textSize="20sp" android:textColor="@color/text_main" android:background="@color/surface" android:padding="12dp"/>
+        <TextView android:layout_width="0dp" android:layout_height="110dp" android:layout_columnWeight="1" android:gravity="center"
+            android:text="📝\nAssignments" android:textSize="20sp" android:textColor="@color/text_main" android:background="@color/surface" android:padding="12dp"/>
+        <TextView android:layout_width="0dp" android:layout_height="110dp" android:layout_columnWeight="1" android:gravity="center"
+            android:text="📅\nAttendance" android:textSize="20sp" android:textColor="@color/text_main" android:background="@color/surface" android:padding="12dp"/>
+        <TextView android:layout_width="0dp" android:layout_height="110dp" android:layout_columnWeight="1" android:gravity="center"
+            android:text="📊\nResults" android:textSize="20sp" android:textColor="@color/text_main" android:background="@color/surface" android:padding="12dp"/>
+        <TextView android:layout_width="0dp" android:layout_height="110dp" android:layout_columnWeight="1" android:gravity="center"
+            android:text="👤\nProfile" android:textSize="20sp" android:textColor="@color/text_main" android:background="@color/surface" android:padding="12dp"/>
+        <TextView android:layout_width="0dp" android:layout_height="110dp" android:layout_columnWeight="1" android:gravity="center"
+            android:text="🔔\nNotices" android:textSize="20sp" android:textColor="@color/text_main" android:background="@color/surface" android:padding="12dp"/>
+    </GridLayout>
+    <Button android:id="@+id/btnProfile" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View Profile" android:layout_marginTop="16dp"/>
+    <Button android:id="@+id/btnLogout" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Logout"/>
+</LinearLayout>

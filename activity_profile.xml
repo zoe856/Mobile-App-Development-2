@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="24dp"
+    android:background="@color/screen_bg">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="My Profile"
+        android:textSize="28sp" android:textStyle="bold" android:textColor="@color/text_main"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your account information"
+        android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="8dp" android:layout_marginBottom="24dp"/>
+    <TextView android:id="@+id/tvName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name:" android:textSize="18sp" android:textColor="@color/text_main" android:padding="8dp"/><TextView android:id="@+id/tvEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Email:" android:textSize="18sp" android:textColor="@color/text_main" android:padding="8dp"/><Button android:id="@+id/btnBackDashboard" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="50dp" android:layout_marginTop="8dp" android:text="Back to dashboard" /><Button android:id="@+id/btnLogout" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="50dp" android:layout_marginTop="8dp" android:text="Logout" />
+</LinearLayout>

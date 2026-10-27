@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CampusConnect</string>
+    <string name="welcome_title">CampusConnect</string>
+    <string name="welcome_subtitle">Your campus, connected.</string>
+</resources>
